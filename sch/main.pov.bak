@@ -251,7 +251,7 @@ union{
 #ifndef(pack_T1) #declare global_pack_T1=yes; object {TR_TO92_L("BC337",)translate<0,0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,0> translate<73.660000,0.000000,35.560000>}#end		//TO92 straight vertical T1 BC337 TO92-CBE
 #ifndef(pack_T2) #declare global_pack_T2=yes; object {TR_TO92_L("BC337",)translate<0,0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,0> translate<55.880000,0.000000,35.560000>}#end		//TO92 straight vertical T2 BC337 TO92-CBE
 #ifndef(pack_T3) #declare global_pack_T3=yes; object {TR_TO92_L("BC337",)translate<0,0,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,0> translate<66.040000,0.000000,35.560000>}#end		//TO92 straight vertical T3 BC337 TO92-CBE
-#ifndef(pack_U1) #declare global_pack_U1=yes; object {USER_LCD_16X2()translate<0,10,30> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,0> translate<17.780000,0.000000,8.890000>}#end		//0 U1 LCD_BL_16X2_LOW LCD_BL_16X2_LOW
+#ifndef(pack_U1) #declare global_pack_U1=yes; object {USER_LCD_16X2()translate<0,10,0> rotate<0,0.000000,0>rotate<0,0.000000,0> rotate<0,0,0> translate<17.780000,0.000000,8.890000>}#end		//0 U1 LCD_BL_16X2_LOW LCD_BL_16X2_LOW
 }//End union
 #end
 #if(pcb_pads_smds=on)
