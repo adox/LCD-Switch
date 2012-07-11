@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17250,40 +17250,41 @@ designed by Gary French</description>
 <hole x="69.85" y="0" drill="0.6"/>
 <hole x="69.85" y="-30.48" drill="0.6"/>
 </package>
-<package name="LCD_BL_16X2_LOW">
-<wire x1="-8.128" y1="33.528" x2="71.882" y2="33.528" width="0.127" layer="21"/>
-<wire x1="-8.128" y1="33.528" x2="-8.128" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="-8.128" y1="-2.54" x2="71.882" y2="-2.54" width="0.127" layer="21"/>
-<wire x1="71.882" y1="-2.54" x2="71.882" y2="33.528" width="0.127" layer="21"/>
-<wire x1="-0.508" y1="22.86" x2="-0.508" y2="6.35" width="0.127" layer="21"/>
-<wire x1="-0.508" y1="22.86" x2="64.262" y2="22.86" width="0.127" layer="21"/>
-<wire x1="64.262" y1="22.86" x2="64.262" y2="6.35" width="0.127" layer="21"/>
-<wire x1="-0.508" y1="6.35" x2="64.262" y2="6.35" width="0.127" layer="21"/>
-<wire x1="3.302" y1="20.32" x2="3.302" y2="8.89" width="0.127" layer="21"/>
-<wire x1="3.302" y1="8.89" x2="59.182" y2="8.89" width="0.127" layer="21"/>
-<wire x1="59.182" y1="8.89" x2="59.182" y2="20.32" width="0.127" layer="21"/>
-<wire x1="59.182" y1="20.32" x2="3.302" y2="20.32" width="0.127" layer="21"/>
-<pad name="1" x="33.02" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="2" x="30.48" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="3" x="27.94" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="4" x="25.4" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="5" x="22.86" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="6" x="20.32" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="7" x="17.78" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="8" x="15.24" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="9" x="12.7" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="10" x="10.16" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="11" x="7.62" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="12" x="5.08" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="13" x="2.54" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="14" x="0" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="15" x="35.56" y="0" drill="0.8" shape="long" rot="R90"/>
-<pad name="16" x="38.1" y="0" drill="0.8" shape="long" rot="R90"/>
-<text x="-5.588" y="34.163" size="1.27" layer="27">&gt;NAME</text>
-<hole x="-5.588" y="30.988" drill="2.5"/>
-<hole x="-5.588" y="0" drill="2.5"/>
-<hole x="69.342" y="0" drill="2.5"/>
-<hole x="69.342" y="30.988" drill="2.5"/>
+<package name="YM1602G_LOWCON">
+<wire x1="-39.243" y1="17.653" x2="40.767" y2="17.653" width="0.127" layer="21"/>
+<wire x1="-39.243" y1="17.653" x2="-39.243" y2="-18.415" width="0.127" layer="21"/>
+<wire x1="-39.243" y1="-18.415" x2="40.64" y2="-18.415" width="0.127" layer="21"/>
+<wire x1="40.64" y1="-18.415" x2="40.767" y2="-18.415" width="0.127" layer="21"/>
+<wire x1="40.767" y1="-18.415" x2="40.767" y2="17.653" width="0.127" layer="21"/>
+<wire x1="-31.623" y1="6.985" x2="-31.623" y2="-9.525" width="0.127" layer="21"/>
+<wire x1="-31.623" y1="6.985" x2="33.147" y2="6.985" width="0.127" layer="21"/>
+<wire x1="33.147" y1="6.985" x2="33.147" y2="-9.525" width="0.127" layer="21"/>
+<wire x1="-31.623" y1="-9.525" x2="33.147" y2="-9.525" width="0.127" layer="21"/>
+<wire x1="-27.813" y1="4.445" x2="-27.813" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="-27.813" y1="-6.985" x2="28.067" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="28.067" y1="-6.985" x2="28.067" y2="4.445" width="0.127" layer="21"/>
+<wire x1="28.067" y1="4.445" x2="-27.813" y2="4.445" width="0.127" layer="21"/>
+<pad name="1" x="1.905" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<pad name="2" x="-0.635" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<pad name="3" x="-3.175" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<pad name="4" x="-5.715" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<pad name="5" x="-8.255" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<pad name="6" x="-10.795" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<pad name="7" x="-13.335" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<pad name="8" x="-15.875" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<pad name="9" x="-18.415" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<pad name="10" x="-20.955" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<pad name="11" x="-23.495" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<pad name="12" x="-26.035" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<pad name="13" x="-28.575" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<pad name="14" x="-31.115" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<pad name="15" x="4.445" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<pad name="16" x="6.985" y="-15.875" drill="0.8" shape="long" rot="R90"/>
+<text x="-36.703" y="18.288" size="1.27" layer="27">&gt;NAME</text>
+<hole x="-36.703" y="15.113" drill="2.5"/>
+<hole x="-36.703" y="-15.875" drill="2.5"/>
+<hole x="38.227" y="-15.875" drill="2.5"/>
+<hole x="38.227" y="15.113" drill="2.5"/>
 </package>
 </packages>
 <symbols>
@@ -17367,7 +17368,7 @@ designed by Gary French</description>
 <technology name=""/>
 </technologies>
 </device>
-<device name="_LOW" package="LCD_BL_16X2_LOW">
+<device name="_LOW" package="YM1602G_LOWCON">
 <connects>
 <connect gate="G$1" pin="A" pad="15"/>
 <connect gate="G$1" pin="DB0" pad="7"/>
@@ -17446,7 +17447,7 @@ designed by Gary French</description>
 <part name="X1" library="con-thomas-betts" deviceset="D-SUB9-" device="H2M09ST"/>
 <part name="U$1" library="con-kycon" deviceset="KLDVX-0202-" device="A"/>
 <part name="S4" library="switch" deviceset="320-916" device=""/>
-<part name="U1" library="lcdmodules2" deviceset="LCD_BL_16X2" device="_LOW"/>
+<part name="U1" library="lcdmodules2" deviceset="LCD_BL_16X2" device="_LOW" value="YM1602G_LOWCON"/>
 </parts>
 <sheets>
 <sheet>

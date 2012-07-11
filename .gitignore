@@ -1,6 +1,7 @@
 # Eagle specific #
 *.b#?
 *.s#?
+*.l#?
 
 # NetBeans specific #
 nbproject/private/
