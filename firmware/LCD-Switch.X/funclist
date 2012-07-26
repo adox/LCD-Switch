@@ -1,0 +1,12 @@
+_lcd_puts: CODE, 599 0 32
+_lcd_putch: CODE, 744 0 15
+_ConfigureOscillator: CODE, 784 0 1
+_main: CODE, 17 0 284
+_InitApp: CODE, 709 0 20
+_lcd_clear: CODE, 686 0 23
+_lcd_goto: CODE, 659 0 27
+_isr: CODE, 773 0 11
+_lcd_write: CODE, 631 0 28
+_lcd_add_char: CODE, 481 0 70
+_lcd_init: CODE, 400 0 81
+Total: 592
